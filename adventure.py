@@ -144,14 +144,12 @@ def showEq():
                     print(Equipment.cape);
                     break
                 else:
-                    Inventory.add_item(Inventory.items.get(equip))
-                    Protagonist.attack -= Inventory.items.get(equip).attack
-                    Protagonist.defense -= Invetnory.items.get(equio).armor
+                    print("Not implemented yet")
                     break
         elif(choice == "2"):
             print("Not implemented yet")
         else:
-            print("Cos nie pykło mordeczko")
+            print("Wrong input. Try again.")
 
 
 
@@ -236,18 +234,7 @@ def doRoll():
     return roll
 
 def attTest(att, dc):
-    if att == "Strength":
-        Protagonist.str += 1
-    elif att == "Agility":
-        Protagonist.str += 1
-    elif att == "Constitution":
-        Protagonist.str += 1
-    elif att == "Inteligence":
-        Protagonist.str += 1
-    elif att == "Wisdom":
-        Protagonist.str += 1
-    elif att == "Charisma":
-        Protagonist.str += 1
+    print("Not implemented yet.")
 
 def attributeUp(att):
     if att == "Strength" : Protagonist.str += 1
